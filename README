@@ -1,0 +1,15 @@
+# npm install prisma --save-dev
+# npx prisma init --datasource-provider sqlite
+
+Uploader les MAJ du schema 
+# npx prisma db push
+
+Afficher la Base de donnée
+# npx prisma studio
+
+Seed data 
+# npm i ts-node -D
+# npx prisma db seed
+
+Keep changes of database in local
+# npx prisma migrate 
